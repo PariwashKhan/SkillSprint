@@ -1,0 +1,23 @@
+NexusFintech Pvt. Ltd.
+Data Privacy Policy
+Document ID: POL-DATA-01
+Version: 1.4
+Effective Date: 2025-03-01
+Category: Policy
+
+3.1 General Data Protection
+All employees must acknowledge this Data Privacy Policy on Day 1. Personal data of customers must be handled only for legitimate business purposes.
+
+4.2 Financial Records
+Finance team members must ensure financial data is encrypted at rest and in transit. Access logs are mandatory.
+
+5.1 Consent Collection
+Sales and Marketing teams must obtain explicit consent before using customer data for campaigns. Consent records must be stored for 5 years.
+
+6.0 Ticket Handling (Support)
+When handling support tickets, PII must be masked in screenshots and logs. Full PII is visible only to authorised personnel.
+
+7.0 Data Anonymisation (Analytics)
+Data Analysts must anonymise or pseudonymise datasets before sharing outside the data team.
+
+This policy supersedes version 1.3 dated 2024-06-01.

@@ -1,0 +1,19 @@
+NexusFintech Pvt. Ltd.
+Operations Process Documentation SOP
+Document ID: SOP-OPS-01
+Version: 1.0
+Effective Date: 2025-01-05
+Category: SOP
+
+1.0 Documentation Standards
+1.1 Every process must have an owner, version, and effective date.
+1.2 Use the standard NexusFintech SOP template.
+1.3 Approved documents are stored in the Ops shared drive.
+
+2.0 Change Management
+2.1 Changes require approval from Ops Head.
+2.2 Superseded versions marked "Obsolete" but retained.
+
+3.0 Adherence
+3.1 All Ops Coordinators must follow approved SOPs strictly.
+3.2 Deviations require written exception from Ops Head.

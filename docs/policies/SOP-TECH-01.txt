@@ -1,0 +1,21 @@
+NexusFintech Pvt. Ltd.
+Technical Support Escalation SOP
+Document ID: SOP-TECH-01
+Version: 2.4
+Effective Date: 2025-01-20
+Category: SOP
+
+2.4 Escalation Matrix (L1 → L2 → L3)
+2.4.1 L1 handles routine tickets. Target resolution: 4 hours.
+2.4.2 L2 handles advanced issues. Target resolution: 24 hours.
+2.4.3 L3 handles critical bugs. Target resolution: 72 hours.
+2.4.4 P1 incidents (system down) go directly to L3.
+
+3.0 Secure Support Practices
+3.0.1 Never leave remote sessions unattended.
+3.0.2 Use only approved remote-access tools.
+3.0.3 All customer data in logs must be masked.
+
+4.0 Documentation
+4.1 Every escalation must include a root-cause note.
+4.2 Update the knowledge base after resolution.

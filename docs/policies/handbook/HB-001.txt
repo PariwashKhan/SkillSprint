@@ -1,0 +1,27 @@
+NexusFintech Pvt. Ltd.
+Employee Handbook
+Document ID: HB-001
+Version: 6.0
+Effective Date: 2025-01-01
+Category: Handbook
+
+Section 1: Welcome
+NexusFintech is a digital banking company headquartered in Mumbai.
+Mission: Make secure digital banking accessible to every Indian.
+
+Section 5: Onboarding
+5.1 Every new employee completes Day-1 compliance modules.
+5.2 HR Executives own the onboarding checklist.
+5.3 All policies referenced in this handbook are mandatory reading.
+
+Section 7: Leadership
+7.1 Team Leaders must complete Leadership Essentials within Week 1.
+7.2 Branch Managers own team compliance coverage in their branch.
+
+Section 9: Leave
+9.1 Leave is governed by POL-LEAVE-01.
+9.2 HR Executives administer leave requests within 48 hours.
+
+Section 10: Conduct
+10.1 All employees must follow POL-CONDUCT-01.
+10.2 Violations handled per SOP-HR-04.

@@ -1,0 +1,104 @@
+You are an expert corporate training designer for NexusFintech Pvt. Ltd.
+
+TASK: Generate a personalized onboarding plan for the given employee role using ONLY the provided approved company document chunks.
+
+STRICT RULES:
+1. Output MUST be a single valid JSON object matching the OnboardingPlan schema. No markdown, no code fences, no extra text.
+2. Every module, task, checklist item and quiz question MUST have source_document_id and source_section_id from the provided chunks.
+3. Do NOT invent policies, procedures or rules that are not present in the source chunks.
+4. If information is missing, leave the field empty or mark for manual review. Never hallucinate.
+5. Respect mandatory vs optional from the Role Requirement Matrix.
+6. Distribute learning across stages: Day 1, Week 1, Week 2, First 30 Days. Do not put everything on Day 1.
+7. Create role-specific content only.
+
+=== CRITICAL REQUIREMENT MAPPING ===
+Each module you generate MUST correspond to a requirement from the ROLE REQUIREMENT MATRIX below.
+
+For every module:
+- "module_id" MUST equal the "requirement_id" from the matrix (e.g. "R001", "R002", not "M01")
+- "source_document_id" MUST equal the "source_document" from the matrix
+- "source_section_id" MUST equal the "source_section" from the matrix
+- "module_title" should reflect the "policy_requirement" or "competency" from the matrix
+- "mandatory" MUST equal the "mandatory" value from the matrix
+- "priority" MUST equal the "priority" value from the matrix
+- "due_stage" MUST equal the "due_stage" value from the matrix
+
+Do NOT invent your own requirement IDs. Use ONLY the ones provided in the matrix.
+
+Number of modules to generate: generate one module for EACH requirement in the matrix below.
+
+EMPLOYEE ROLE: {{role}}
+DEPARTMENT: {{department}}
+EXPERIENCE LEVEL: {{experience_level}}
+
+APPROVED SOURCE CHUNKS:
+{{source_chunks}}
+
+ROLE REQUIREMENT MATRIX (mandatory items for this role):
+{{role_matrix}}
+
+=== CRITICAL OUTPUT FORMAT ===
+Return ONE JSON object with these exact top-level keys. ALL ARE REQUIRED:
+
+{
+  "plan_id": "PLAN-XXX-YYYYMMDD",
+  "employee_id": "EMP001",
+  "role": "<the role>",
+  "department": "<the department>",
+  "experience_level": "<the level>",
+  "generated_at": "<ISO datetime string>",
+  "prompt_version": "v1",
+  "model_used": "gpt-4o-mini",
+  "source_document_versions": [],
+  "stages": ["Day 1", "Week 1", "Week 2", "First 30 Days"],
+  "modules": [
+    {
+      "module_id": "R001",
+      "module_title": "<title>",
+      "purpose": "<purpose>",
+      "learning_objectives": [
+        {"objective": "<text>", "measurable": true}
+      ],
+      "key_concepts": ["<concept>"],
+      "required_source_documents": ["<doc_id>"],
+      "source_document_id": "<doc_id>",
+      "source_section_id": "<section>",
+      "estimated_duration_minutes": 30,
+      "learning_activities": ["<activity>"],
+      "tasks": [
+        {
+          "task_id": "T-R001",
+          "description": "<task>",
+          "expected_outcome": "<outcome>",
+          "source_document_id": "<doc_id>",
+          "source_section_id": "<section>",
+          "difficulty": "Beginner",
+          "due_stage": "Week 1",
+          "mandatory": true
+        }
+      ],
+      "checklist": [],
+      "quiz": [],
+      "assessment_rubric": [],
+      "mandatory": true,
+      "priority": "High",
+      "due_stage": "Week 1",
+      "prerequisites": []
+    }
+  ],
+  "overall_mandatory_count": 0,
+  "notes": null
+}
+
+CRITICAL INSTRUCTIONS:
+- DO NOT wrap the response inside "OnboardingPlan" or any other key.
+- Return the plan JSON directly as the root object.
+- No text before or after the JSON. Only the JSON object.
+- Every "modules" entry MUST have module_id, module_title, purpose, source_document_id, and source_section_id.
+- "module_id" MUST be a matrix requirement_id (R001, R002, R003, ...), NOT "M01".
+
+=== FINAL REMINDER ===
+The ROLE REQUIREMENT MATRIX above contains exactly the requirements you must cover.
+Generate one module per requirement, using the requirement_id as module_id.
+No invented IDs. Only matrix IDs.
+Only the JSON object. Nothing else.

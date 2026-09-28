@@ -1,0 +1,67 @@
+[
+  {
+    "requirement_id": "R001",
+    "role": "Customer Support Executive",
+    "policy_requirement": "Must complete Information Security Awareness",
+    "process_requirement": "Follow escalation procedure SOP-07 section 4.2",
+    "competency": "Customer Escalation Handling",
+    "mandatory": true,
+    "priority": "High",
+    "source_document": "SOP-07",
+    "source_section": "4.2",
+    "assessment_requirement": "Scenario-based escalation quiz",
+    "due_stage": "Week 1"
+  },
+  {
+    "requirement_id": "R002",
+    "role": "Customer Support Executive",
+    "policy_requirement": "Acknowledge Data Privacy Policy",
+    "process_requirement": null,
+    "competency": "Data Protection",
+    "mandatory": true,
+    "priority": "High",
+    "source_document": "POL-DATA-01",
+    "source_section": "3.1",
+    "assessment_requirement": "True/False on customer data handling",
+    "due_stage": "Day 1"
+  },
+  {
+    "requirement_id": "R003",
+    "role": "Finance Associate",
+    "policy_requirement": "Must complete Anti-Money Laundering training",
+    "process_requirement": "Follow transaction monitoring SOP",
+    "competency": "AML Compliance",
+    "mandatory": true,
+    "priority": "High",
+    "source_document": "POL-AML-01",
+    "source_section": "2.0",
+    "assessment_requirement": "AML knowledge assessment",
+    "due_stage": "Week 1"
+  },
+  {
+    "requirement_id": "R004",
+    "role": "Sales Executive",
+    "policy_requirement": "Product knowledge certification",
+    "process_requirement": "Use approved sales scripts only",
+    "competency": "Product Selling",
+    "mandatory": true,
+    "priority": "High",
+    "source_document": "SOP-SALES-03",
+    "source_section": "1.5",
+    "assessment_requirement": "Role-play assessment",
+    "due_stage": "Week 2"
+  },
+  {
+    "requirement_id": "R005",
+    "role": "HR Executive",
+    "policy_requirement": "Must know Leave Policy and Workplace Conduct",
+    "process_requirement": "Onboarding checklist completion",
+    "competency": "HR Policy Knowledge",
+    "mandatory": true,
+    "priority": "High",
+    "source_document": "HB-001",
+    "source_section": "5.0",
+    "assessment_requirement": "Policy quiz",
+    "due_stage": "Day 1"
+  }
+]

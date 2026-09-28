@@ -1,0 +1,21 @@
+NexusFintech Pvt. Ltd.
+Expense Reimbursement SOP
+Document ID: SOP-FIN-05
+Version: 2.1
+Effective Date: 2025-03-01
+Category: SOP
+
+1.3 Approved Expenses
+1.3.1 Travel: Economy class for domestic, Business for international.
+1.3.2 Meals: Up to INR 1,500 per day.
+1.3.3 Client entertainment: Prior manager approval required above INR 5,000.
+
+2.0 Submission Process
+2.1 Submit expense reports within 30 days.
+2.2 Receipts are mandatory for all claims.
+2.3 Use the Expense Form in the Finance portal.
+
+3.0 Approval
+3.1 Manager approval required for all claims.
+3.2 Finance Associate must verify GL code and cost center.
+3.3 Reimbursement within 7 working days of approval.

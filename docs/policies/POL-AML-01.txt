@@ -1,0 +1,24 @@
+NexusFintech Pvt. Ltd.
+Anti-Money Laundering & KYC Policy
+Document ID: POL-AML-01
+Version: 3.2
+Effective Date: 2025-04-01
+Category: Policy
+
+1.0 Purpose
+This policy defines NexusFintech's obligations under PMLA 2002 and RBI KYC Master Directions.
+
+2.0 Employee Obligations
+2.1 All Finance, Sales, and Branch roles must complete AML/KYC certification within Week 1.
+2.2 Suspicious transactions must be reported to the MLRO within 24 hours.
+2.3 Customer due diligence (CDD) is mandatory for transactions above INR 50,000.
+
+3.0 Transaction Monitoring
+3.1 Automated alerts must be reviewed within 4 business hours.
+3.2 Structuring indicators must be escalated immediately.
+
+4.0 Record Keeping
+4.1 KYC records must be retained for 5 years post account closure.
+4.2 Audit trails are mandatory for all AML case files.
+
+This policy supersedes version 3.1 dated 2024-09-15.

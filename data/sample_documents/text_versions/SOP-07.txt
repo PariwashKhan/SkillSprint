@@ -1,0 +1,17 @@
+NexusFintech Pvt. Ltd.
+Customer Escalation Standard Operating Procedure
+Document ID: SOP-07
+Version: 3.0
+Effective Date: 2025-02-10
+Category: SOP
+
+4.2 Escalation Procedure for Customer Support
+When a customer issue cannot be resolved at L1 within 30 minutes, the agent must escalate to L2 using the Escalation Form in the CRM.
+
+Steps:
+1. Document all actions taken.
+2. Select correct escalation category (Technical / Billing / Complaint / Fraud).
+3. Notify the customer of the escalation and expected response time (4 business hours for L2).
+4. For fraud or data breach suspicion, escalate immediately to Security team and Compliance.
+
+This section is mandatory for all Customer Support Executives.

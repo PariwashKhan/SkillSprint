@@ -1,0 +1,20 @@
+NexusFintech Pvt. Ltd.
+Customer Complaint Resolution SOP
+Document ID: SOP-CX-02
+Version: 3.0
+Effective Date: 2025-02-01
+Category: SOP
+
+3.0 Complaint Handling Workflow
+3.1 All complaints must be logged in CRM within 15 minutes of receipt.
+3.2 Acknowledge the customer within 2 business hours.
+3.3 Categorize: Service / Billing / Product / Fraud.
+
+4.0 Resolution Timelines
+4.1 Service complaints: 24 business hours.
+4.2 Billing complaints: 48 business hours.
+4.3 Fraud complaints: immediate escalation to Security and Compliance.
+
+5.0 Closure
+5.1 Customer must confirm resolution in writing.
+5.2 Complaint records retained for 3 years.

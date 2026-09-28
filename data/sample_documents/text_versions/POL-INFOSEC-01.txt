@@ -1,0 +1,28 @@
+NexusFintech Pvt. Ltd.
+Information Security Policy
+Document ID: POL-INFOSEC-01
+Version: 2.1
+Effective Date: 2025-01-15
+Category: Policy
+
+1. Purpose
+This policy establishes the information security requirements for all employees, contractors and systems of NexusFintech.
+
+2.1 Information Security Awareness
+All employees must complete Information Security Awareness training within the first day of joining and annually thereafter. Failure to complete this training is a disciplinary matter.
+
+2.2 Password and Access Control
+- Passwords must be at least 12 characters and changed every 90 days.
+- Credentials must never be shared.
+- Multi-factor authentication is mandatory for all critical systems.
+
+3.2 Secure Support Practices (for technical roles)
+Support engineers must follow secure remote access procedures and never leave sessions unattended.
+
+4.1 Data Tools Security
+Analysts and data roles must use only approved tools and follow least-privilege access.
+
+5.0 System Access Policy
+Access is granted on a need-to-know basis. All access requests must be logged and approved by the reporting manager.
+
+Violation of this policy may result in disciplinary action up to and including termination.
